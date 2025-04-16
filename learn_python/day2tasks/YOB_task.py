@@ -1,5 +1,5 @@
-import datetime
 from datetime import date
+from datetime import datetime
 
 """
 First Part - define variables age_int and name_str
@@ -26,9 +26,13 @@ print(f"That means you have lived {hours_lived} hours.")
 
 
 # Bonus part - figure out if the person's birthday has already happened this year or not.
-# Need to ask user for birthday, save that as variable. Then return boolean as to whether that date has happened or not.
+# Need to ask user for birthday, save that as variable.
 present = date.today()
 print(present)
 # My confusion here comes from how I would format the user input correctly so that it can be compared to the present.
-user_bday = input("What's your birthday? Please  ")
-print(user_bday)
+bday = input("What's your birthday (dd-mm)? ")
+print(bday)
+bday_object = datetime.strptime(bday, "%d.%m")
+print(bday_object)
+bday_object < datetime.now()
+# My instinct here is to an if/else statement but we haven't covered how to do that in Python yet.
