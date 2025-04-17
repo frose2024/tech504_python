@@ -31,8 +31,8 @@ x = "apple"
 for x in fruits:
         print(x)
 # This will print everything in the set, which will include "apple"
-# Using the in keyword (could use not in too) will confirm if something is in a set.
+# Using the 'in' keyword (could use 'not in' too) will confirm if something is in a set.
 print("apple" in fruits)
 
 # Other solution could be to cast the set into a list, and access apple that way. But, set is unordered, so you
-#   don't know where exactly apple will end up. 
+#   don't know where exactly apple will end up.

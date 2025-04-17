@@ -42,7 +42,12 @@ Doesn't work - essentials_tuple.append(essential_item4)
 If you can't add the 4th item, work out how to save the 4th item to the tuple
 """
 
-# We have a three stage approach here :
+# One approach is to use = to reassign essentials_tuple
+essentials_tuple = essentials_tuple + (essential_item4,)
+print("Here are your items as a tuple (with the 4th item added):", essentials_tuple)
+
+"""
+We have a three stage approach here :
 
 # 1 - turn tuple into list via casting
 essential_list = list(essentials_tuple)
@@ -52,7 +57,8 @@ print(essential_list)
 essential_list.append(essential_item4)
 print(essential_list)
 
-# 3 - turn back into tuple via casting
+# 3 - turn list back into tuple via casting
 essentials_tuple = tuple(essential_list)
 
 print("Here are your items as a tuple (with the 4th item added):", essentials_tuple)
+"""

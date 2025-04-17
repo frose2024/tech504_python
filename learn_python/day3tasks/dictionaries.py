@@ -26,10 +26,18 @@ print(student_1["completed_lessons"])
 student_1["completed_lessons"] = 3
 print(student_1["completed_lessons"])
 
-# Delete data types from the list of "completed_lesson_names".
-# Going into the list and finding the key "completed_lesson_names", then popping element 1
+"""
+Delete data types from the list of "completed_lesson_names".
+Going into the list and finding the key "completed_lesson_names", then popping element 1
+
 print(student_1["completed_lesson_names"])
 student_1["completed_lesson_names"].pop(1)
+print(student_1["completed_lesson_names"])
+"""
+
+# Can also achieve the same as above using .remove instead
+print(student_1["completed_lesson_names"])
+student_1["completed_lesson_names"].remove("data_types")
 print(student_1["completed_lesson_names"])
 
 # Use the keys method to print all the keys in a dictionary

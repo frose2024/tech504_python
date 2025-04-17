@@ -52,3 +52,4 @@ print(f"{user_name}, your final bill for this evening is ${user_bill}. At Appleb
 
 # level 4
 # Add more to this program. Recommended ways are: Only allow input that is within the list, Add quantities of order etc.
+# Improvement would be storing everything in the dictionary as lower case and turning all user input to lower case w/ lower()
