@@ -11,7 +11,7 @@ elif film_rating == "pg":
 
 # check if film rating is "12" or "12a"
 #   got confused here using the OR bit, but need to explicitly state what's being compared. 
-elif film_rating == "12" or film_rating == "12a":
+elif film_rating == "12" or "12a":
     print("Films classified 12A and video works classified 12 contain material that is not generally suitable for children aged under 12. No one younger than 12 may see a 12A film in a cinema unless accompanied by an adult.")
 
 # check if film rating is "15"
