@@ -29,4 +29,3 @@ with open("servers.json", "r") as file:
         # Above code works b/c .items() returns all the keys and all the values from a dictionary.
         #   I've told the interpreter to store the outer keys in server_key and outer info in server_info in the outer loop.
         #   Inner loop does the same thing.
-        #   Both
